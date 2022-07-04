@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-/* printing the alphabet */
-int main(void)
+int main()
 {
 	char c;
 
