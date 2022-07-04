@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main()
+/**
+ * main - entery point
+ *
+ * return: always 0
+ */
+int main(void)
 {
 
 	char c;
@@ -8,5 +13,5 @@ int main()
 		putchar(c);
 		putchar('\n');
 
-return 0;
+return (0);
 }
