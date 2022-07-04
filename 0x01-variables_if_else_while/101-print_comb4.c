@@ -8,7 +8,7 @@ int main(void)
 int ones, tens, hund;
 for (hund = 0 ; hund <= 9 ; hund++)
 {
-for (tens = 0 ; tens <= 9; tens++)
+for (tens = hund + 1 ; tens <= 9; tens++)
 {
 for (ones = tens + 1; ones <= 9; ones++)
 {
