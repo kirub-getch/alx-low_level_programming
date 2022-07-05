@@ -15,8 +15,15 @@ for (ones = tens + 1; ones <= 9; ones++)
 putchar(hund + '0');
 putchar(tens + '0');
 putchar(ones + '0');
+if (hund == 7 && tens == 8 && ones == 9)
+{
+break;
+}
+else
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
