@@ -13,12 +13,12 @@ int x = 10, z, d;
 d = z % x;
 if (d < 0)
 {
-putchar(-d + 48)
+_putchar(-d + 48)
 return (-d);
 }
 else
 {
-putchar(-d + 48)
+_putchar(-d + 48)
 return (d);
 }
 }
