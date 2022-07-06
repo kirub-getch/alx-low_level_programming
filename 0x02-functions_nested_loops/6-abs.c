@@ -1,4 +1,5 @@
-#include "main.h"
+#include "mai.h"
+
 /**
 * _abs - gives the absolute value
 * of an integer.
@@ -8,16 +9,13 @@
 * Return: absolute value
 */
 int _abs(int n)
-{
-if (n > 0)
-{
-if (n >= 0)
-{
-return (n);
+	{
+	if (n >= 0)
+	{
+	return (n);
+	}
+	else
+	{
+	return (n * -1);
+	}
 }
-else
-{
-return (n * -1);
-}
-}
-
