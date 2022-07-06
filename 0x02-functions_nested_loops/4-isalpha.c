@@ -9,15 +9,13 @@
 */
 int _isalpha(int c)
 {
-int result;
-if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-{
-result = 1;
-}
-else
-{
-result = 0;
-}
-_putchar('\n');
-return (result);
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
+	_putchar('\n');
 }
