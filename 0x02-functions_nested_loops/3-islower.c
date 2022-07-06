@@ -18,6 +18,6 @@ else
 {
 result = 0;
 }
-putchar('\n');
+_putchar('\n');
 return (result);
 }
