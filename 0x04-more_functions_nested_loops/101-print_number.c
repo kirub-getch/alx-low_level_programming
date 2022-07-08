@@ -26,7 +26,7 @@ while (size > 0)
 {
 nth = n / size;
 _putchar('0' + nth);
-n -= nth * size;
+n -= nth *size;
 size /= 10;
 }
 }
