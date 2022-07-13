@@ -17,14 +17,14 @@ putchar(i / 10 + 48);
 putchar(i % 10 + 48);
 putchar(' ');
 putchar(j / 10 + 48);
-putchar(j % 10 + 48);	
-if ((i / 10 == 9 && j % 10 == 9 ) && (i % 10 == 8 && j / 10 == 9))
+putchar(j % 10 + 48);
+if ((i / 10 == 9 && j % 10 == 9) && (i % 10 == 8 && j / 10 == 9))
 {
 break;
 }
 
 putchar(',');
-putchar(' ');	
+putchar(' ');
 }
 }
 putchar('\n');
