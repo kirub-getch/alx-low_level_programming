@@ -6,25 +6,33 @@
 */
 int main(void)
 {
-int i, j;
-for (i = 0; j <= 99; j++)
+int i ,j ,k ,l ;
+for(i = 0 ;i <= 99 ;i++)
 {
-for (i = j; i <= 99; i++)
+for(j =0;j<= 99 ; j++)
 {
-if (i != j)
+if(i != j)
 {
-putchar(j / 10 + 48);
+putchar(i % 10 + 48);
 putchar(j % 10 + 48);
 putchar(' ');
 putchar(i / 10 + 48);
-putchar(i % 10 + 48);
-if (j = 100 + i != 9899)
+putchar(j / 10 + 48);
+	
+if((i % 10 == 9 && j % 10 == 8 ) && (i / 10 == 9 && j / 10 == 9))
 {
-putchar(',');
-putchar(' ');
+break;
 }
+
+putchar(' ');
+putchar(',');	
+
 }
 }
 putchar('\n');
+}
+
+
+
 return (0);
 }
