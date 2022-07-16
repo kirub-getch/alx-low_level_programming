@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include "main.h"
 /*****************************
 *
@@ -16,8 +17,8 @@ while (sum <= 2645)
 {
 pass = (rand() % 128);
 sum += pass;
-printf("%c", pass);
+printf("%d", pass);
 }
-printf("%c",2772 - sum);
-return 0;
- }
+printf("%d", 2772 - sum);
+return (0);
+}
