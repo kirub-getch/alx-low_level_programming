@@ -7,7 +7,7 @@
 * Return: void
 *
 ***********************************************/
-int _atio(char *s)
+int _atoi(char *s)
 {
 int sign;
 unsigned int num;
