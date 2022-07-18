@@ -21,5 +21,6 @@ length++;
 if (accept[j] == '\0')
 return (length);
 }
+}
 return (length);
 }
